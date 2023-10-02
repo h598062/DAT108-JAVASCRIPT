@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="no">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="Author" content="Bjarte Kileng" />
+		<link rel="icon" href="data:," />
+
+		<script defer src="js/typer.js"></script>
+		<link href="fag.css" rel="stylesheet" type="text/css" />
+		<link href="dat108.css" rel="stylesheet" type="text/css" />
+		<title>Primitive datatyper</title>
+	</head>
+
+	<body>
+		<h1>Primitive datatyper</h1>
+		<p>All utskrift fra JavaScript-koden skrives til web konsollet.</p>
+		<p>
+			Ang. primitiv type for <var>null</var>, se e.g.
+			<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null"
+				>typeof null</a
+			>.
+		</p>
+		<p>
+			Her demonstreres de primitive datatypene i ECMA. Sjekk f.eks.
+			<a href="https://tc39.es/ecma262/#sec-ecmascript-overview">ECMA standarden</a>
+			for detaljer.
+		</p>
+
+		<div id="demoHandler">
+			<fieldset>
+				<legend>Undefined, null, tom tekststreng</legend>
+				<button type="button" data-demo="demo0">: undefined</button>
+				<button type="button" data-demo="demo1">: undefined</button>
+				<button type="button" data-demo="demo2">: null</button>
+				<button type="button" data-demo="demo3">: tom streng</button>
+			</fieldset>
+			<fieldset>
+				<legend>Number: Tallet 0, NaN, Infinity</legend>
+				<button type="button" data-demo="demo4">: tallet 0</button>
+				<button type="button" data-demo="demo5">: NaN</button>
+				<button type="button" data-demo="demo6">: Infinity</button>
+				<button type="button" data-demo="demo7">: Infinity</button>
+				<button type="button" data-demo="demo8">: isFinite</button>
+				<button type="button" data-demo="demo9">: Infinity</button>
+			</fieldset>
+			<fieldset>
+				<legend>Konverting mellom tall og tekst</legend>
+				<button type="button" data-demo="demo10">: Tall til streng</button>
+				<button type="button" data-demo="demo11">: Tall til streng</button>
+				<button type="button" data-demo="demo12">: Streng til tall</button>
+				<button type="button" data-demo="demo13">: Streng til tall</button>
+			</fieldset>
+			<fieldset>
+				<legend>BitInt</legend>
+				<button type="button" data-demo="demo14">: bigint</button>
+				<button type="button" data-demo="demo15">: bigint</button>
+				<button type="button" data-demo="demo16">: bigint - <span class="feil">Denne feiler</span></button>
+			</fieldset>
+			<fieldset>
+				<legend>Symbol</legend>
+				<button type="button" data-demo="demo17">: symbol</button>
+				<!-- <button type="button" data-demo="demo18"></button> -->
+			</fieldset>
+			<pre data-viewelm></pre>
+		</div>
+	</body>
+</html>

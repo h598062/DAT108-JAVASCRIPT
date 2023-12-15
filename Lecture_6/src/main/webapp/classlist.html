@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Author" content="Bjarte Kileng" />
+    <link rel="icon" href="data:," />
+
+    <script defer src="js/classlist.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
+    <title>classList</title>
+    <style>
+        .newstyle {
+            background-color: blue;
+            color: green;
+            padding: 1cm;
+            border: 2px solid red;
+        }
+
+        .details {
+            border: 20px groove blue
+        }
+
+        .example {
+            color: green;
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        .webdisplay {
+            background-color: red
+        }
+    </style>
+</head>
+
+<body>
+    <h1>classList</h1>
+    <p>All utskrift fra JavaScript-koden skrives til web konsollet.</p>
+
+    <p id="welcome">Dette P elementet har ID <strong>welcome</strong>.</p>
+
+    <div id="demoHandler">
+        <form>
+            <fieldset>
+                <legend>Class name antall</legend>
+                <button type="button" data-demo="demo0">: Antall</button>
+            </fieldset>
+            <fieldset>
+                <legend>Liste alle class verdier</legend>
+                <button type="button" data-demo="demo1"></button>
+                <button type="button" data-demo="demo2"></button>
+            </fieldset>
+            <fieldset>
+                <legend>Toggle class verdi</legend>
+                <button type="button" data-demo="demo3">: class name details</button>
+                <button type="button" data-demo="demo4">: class name example</button>
+                <button type="button" data-demo="demo5">: class name webdisplay</button>
+            </fieldset>
+            <fieldset>
+                <legend>Sjekk for class verdi</legend>
+                <button type="button" data-demo="demo6">: class name details</button>
+                <button type="button" data-demo="demo7">: class name example</button>
+                <button type="button" data-demo="demo8">: class name webdisplay</button>
+            </fieldset>
+            <fieldset>
+                <legend>Fjerne alle class verdier</legend>
+                <button type="button" data-demo="demo9"></button>
+                <button type="button" data-demo="demo10"></button>
+                <button type="button" data-demo="demo11"></button>
+            </fieldset>
+            <fieldset>
+                <legend>Legge til class verdi</legend>
+                <button type="button" data-demo="demo12">: class name details</button>
+                <button type="button" data-demo="demo13">: class name example</button>
+                <button type="button" data-demo="demo14">: class name webdisplay</button>
+        </form>
+        <pre data-viewelm></pre>
+    </div>
+</body>
+
+</html
